@@ -1,6 +1,6 @@
 import Time
 import Wifi
-
+import Search
 class RunMain():
     def Run():
         #print("Hello world")
@@ -10,10 +10,11 @@ class RunMain():
             print("\nDate and Time is : \n")
             Time.ShowTime()
         elif(comd == "2" or comd == "Wifi" or comd == "wifi"):
-            print("\n")
+            print("\nWifi\n")
             Wifi.ShowWifi()
         if(comd == "3" or comd == "Search" or comd == "search"):
-            print("Search")
-    Run()
+            print("\nSearch\n")
+            Search.searcher()
+    # Run()
 
-RunMain()  
+RunMain.Run()
