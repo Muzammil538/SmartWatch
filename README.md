@@ -3,7 +3,7 @@ This is a Smart Watch project with Python , this is a CLI of the watch and will 
 
 ## Features 
 1. Time And Date
-    This shows the time and date (current)
+    ~This shows the time and date (current)
 2. Wifi
     This shows the available wifi networks.
 3. Search (audio)
